@@ -8,7 +8,7 @@ typedef struct{
     int log_cad_his;
     int lch;
     char nome_empresa[100];
-    char cnpj[15];
+    char cnpj[150];
     char email[256];
     char telefone[20];
     char senha[20];
@@ -23,7 +23,7 @@ typedef struct{
 
 typedef struct{
     char nome_cand[100];
-    char cpf[16] ;
+    char cpf[160] ;
     char cargo[100];
     char telefone_cand[20];
     char email_cand[256];
